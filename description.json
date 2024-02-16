@@ -1,0 +1,44 @@
+{
+    "Description": {
+        "__typename": "SectionDataContainer",
+        "sectionId": "OVERVIEW_DEFAULT_V2",
+        "loggingData": {
+            "__typename": "LoggingEventData",
+            "loggingId": "pdp.overview_default_v2",
+            "experiments": null,
+            "eventData": {
+                "productId": "U3RheUxpc3Rpbmc6NzU0MDQ2NjQ1MDQ2NDY4NjUw",
+                "pdpImpressionId": "p3_1707565544_zjZhIcdpZWmYP 9sP",
+                "pdpContext": {
+                    "isGuestFavorite": "true"
+                }
+            },
+            "eventDataSchemaName": "Pdp.v5.ClientEventData",
+            "section": null,
+            "component": null
+        },
+        "sectionData": {
+            "__typename": "PdpOverviewV2Section",
+            "title": "Entire villa in Kecamatan Buahbatu, Indonesia",
+            "overviewItems": [
+                {
+                    "__typename": "PdpSbuiBasicListItem",
+                    "title": "10 guests"
+                },
+                {
+                    "__typename": "PdpSbuiBasicListItem",
+                    "title": "4 bedrooms"
+                },
+                {
+                    "__typename": "PdpSbuiBasicListItem",
+                    "title": "4 beds"
+                },
+                {
+                    "__typename": "PdpSbuiBasicListItem",
+                    "title": "3 bathrooms"
+                }
+            ],
+            "reviewData": null
+        }
+    }
+}

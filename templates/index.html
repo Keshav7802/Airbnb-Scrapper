@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb Scraper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+</head>
+<body>
+    <form action="/scrape" method="post">
+        <label for="airbnb_url">Enter Airbnb Property URL:</label>
+        <input type="text" id="airbnb_url" name="airbnb_url" required>
+        <button type="submit">Scrape</button>
+    </form>
+</body>
+</html>
